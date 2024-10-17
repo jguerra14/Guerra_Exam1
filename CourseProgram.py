@@ -35,7 +35,7 @@ def main():
          print(f"Seats left: {python.get_seats()}")
          print()
       else:
-         print(f"Sorry {register_Student.get_name()}, registration is closed for {python.get_name()}")
+         print(f"Sorry {student}, registration is closed for {python.get_name()}")
 
 #check if course is open
 #create a register instance

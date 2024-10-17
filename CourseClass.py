@@ -37,7 +37,9 @@ class Course:
         '''
         if self.__seats > 0:
             self.__seats -= 1
-        else:
+        # now that we've decremented the seat count, check if we brought it
+        # down to zero and close registration if so
+        if self.__seats == 0:
             self.__status = 'closed'
 
 
